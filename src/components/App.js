@@ -38,23 +38,3 @@ export default function App() {
     </div>
   );
 }
-
-// function FlashCards() {
-//   const [selectedId, setSelectedId] = useState(null);
-//   function handleClick(id) {
-//     setSelectedId(id !== selectedId ? id : null);
-//   }
-//   return (
-//     <div className="flashcards">
-//       {List.map((listItem) => (
-//         <div
-//           onClick={() => handleClick(listItem.id)}
-//           key={listItem.id}
-//           className={selectedId === listItem.id ? "selected" : ""}
-//         >
-//           <p>{selectedId === listItem.id ? listItem.slug : listItem.name}</p>
-//         </div>
-//       ))}
-//     </div>
-//   );
-// }
